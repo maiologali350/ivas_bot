@@ -116,8 +116,9 @@ class IVASClient:
         self._scraper.headers.update(self.HEADERS)
 
         # Inject cookies
-        self._scraper.cookies.set("XSRF-TOKEN", IVAS_XSRF_TOKEN, domain="www.ivasms.com")
-        self._scraper.cookies.set("ivas_sms_session", IVAS_SESSION, domain="www.ivasms.com")
+        self._scraper.cookies.set("XSRF-TOKEN",       IVAS_XSRF_TOKEN,   domain="www.ivasms.com")
+        self._scraper.cookies.set("ivas_sms_session", IVAS_SESSION,      domain="www.ivasms.com")
+        self._scraper.cookies.set("cf_clearance",     IVAS_CF_CLEARANCE, domain="www.ivasms.com")
 
         self._csrf_token: Optional[str] = None
 
