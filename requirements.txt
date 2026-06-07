@@ -1,0 +1,7 @@
+aiogram==3.13.1
+cloudscraper==1.2.71
+beautifulsoup4==4.12.3
+python-dotenv==1.0.1
+aiosqlite==0.20.0
+tenacity==9.0.0
+brotli==1.1.0
