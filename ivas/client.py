@@ -33,6 +33,7 @@ from config import (
     IVAS_BASE_URL,
     IVAS_XSRF_TOKEN,
     IVAS_SESSION,
+    IVAS_CF_CLEARANCE, 
     MAX_RETRIES,
     RETRY_WAIT_MIN,
     RETRY_WAIT_MAX,
